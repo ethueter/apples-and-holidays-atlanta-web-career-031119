@@ -76,6 +76,7 @@ def all_holidays_with_bbq(holiday_hash)
     if x == "BBQ"
      new_array.push("#{holiday}")
     end
+    binding.pry 
    end
   end
 new_array
