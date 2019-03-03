@@ -77,7 +77,7 @@ def all_holidays_with_bbq(holiday_hash)
     new_array.push("#{holiday_name}")
   end
 end
-end
+
 new_array
 
 end
