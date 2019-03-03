@@ -70,10 +70,11 @@ def all_supplies_in_holidays(holiday_hash)
 end
 
 def all_holidays_with_bbq(holiday_hash)
-  new_array = []
+  
  holiday_hash.collect do |a, b|
-     if b.include?("BBQ")
-       new_array.push(b.key)
+   b.collect do |c, d|
+     c if d.include?("BBQ")
+      
      end
    end
    new_array.flatten
