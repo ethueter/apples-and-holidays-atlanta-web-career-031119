@@ -76,6 +76,7 @@ def all_holidays_with_bbq(holiday_hash)
      supply_array.each do |x|
       if x == "BBQ"
       new_array.push("#{holiday.key("BBQ")}")
+      binding.pry 
       end
      end
    end
