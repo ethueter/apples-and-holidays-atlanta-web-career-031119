@@ -57,7 +57,7 @@ def all_supplies_in_holidays(holiday_hash)
       a = z.split 
       new_array = []
       a.each do |d|
-        d.capitalize>>new_array 
+        new_array>>"#{d.capitalize}" 
       end 
       y = supply_array.join(", ") 
        
